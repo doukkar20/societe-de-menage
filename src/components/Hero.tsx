@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
 import { Sparkles, ArrowRight, ShieldCheck, Check, Star } from "lucide-react";
+// @ts-ignore
+import heroImage from "../assets/images/hero_cleaning_1779645419120.png";
 
 export function Hero() {
   const scrollToCalculator = () => {
@@ -79,7 +81,7 @@ export function Hero() {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-100 aspect-16/11 group">
             {/* The beautiful generated sunlit villa */}
             <img
-              src="/src/assets/images/hero_cleaning_1779645419120.png"
+              src={heroImage}
               alt="Intérieur parisien prestigieux brillant et propre ÉclatNet"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transform duration-700 group-hover:scale-102"
