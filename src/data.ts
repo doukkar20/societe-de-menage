@@ -1,4 +1,10 @@
 import { ServiceItem, Testimonial } from "./types";
+// @ts-ignore
+import kitchenImage from "./assets/images/kitchen_clean_1779645435677.png";
+// @ts-ignore
+import heroImage from "./assets/images/hero_cleaning_1779645419120.png";
+// @ts-ignore
+import officeImage from "./assets/images/office_clean_1779645453638.png";
 
 export const SERVICES_DATA: ServiceItem[] = [
   {
@@ -15,7 +21,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Rangement esthétique et lissage des lits",
       "Éligible au crédit d'impôt de 50%"
     ],
-    image: "/src/assets/images/kitchen_clean_1779645435677.png" // beautiful kitchen view we generated
+    image: kitchenImage
   },
   {
     id: "grand-nettoyage",
@@ -31,7 +37,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Shampoing des tapis et traitement antipoussière",
       "Équipes coordonnées avec superviseur local"
     ],
-    image: "/src/assets/images/hero_cleaning_1779645419120.png" // beautiful sunlit space
+    image: heroImage
   },
   {
     id: "workspace-prestige",
@@ -47,7 +53,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Confidentialité absolue et sécurité renforcée des clés",
       "Rapports mensuels de traçabilité d'hygiène"
     ],
-    image: "/src/assets/images/office_clean_1779645453638.png" // pristine conference room
+    image: officeImage
   },
   {
     id: "expert-windows",
@@ -63,7 +69,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Traitement hydrofuge de surface pour une longévité doublée",
       "Prestation sécurisée avec garantie bris de glace"
     ],
-    image: "/src/assets/images/hero_cleaning_1779645419120.png"
+    image: heroImage
   }
 ];
 
