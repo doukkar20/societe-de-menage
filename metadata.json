@@ -1,0 +1,6 @@
+{
+  "name": "ÉclatNet",
+  "description": "Plateforme web professionnelle de services de ménage de prestige avec devis interactif et assistant d'entretien intelligent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
